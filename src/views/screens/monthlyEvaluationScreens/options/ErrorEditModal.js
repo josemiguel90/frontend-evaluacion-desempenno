@@ -30,7 +30,7 @@ function ErrorEditModal({
         </h6>
         <small>
           Solo se puede editar la Evaluación Mensual de {evalType} antes de que
-          se cumplan 7 días de creada
+          se cumplan 30 días de creada
         </small>
       </CModalBody>
       <CModalFooter>

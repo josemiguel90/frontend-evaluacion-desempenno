@@ -98,7 +98,7 @@ function EditMonthlyGastronomyEvaluation({ match, history }) {
     const actualDate = new Date().getTime();
     const diff = actualDate - evalDate;
     const daysDiff = parseInt(diff / (1000 * 60 * 60 * 24));
-    if (daysDiff !== null && daysDiff >= 7) {
+    if (daysDiff !== null && daysDiff >= 30) {
       setEvalDate(monthlyGastronomyEvaluation.evaluationDate);
       setDifferenceDays(daysDiff);
       setShowErrorModal(true);
