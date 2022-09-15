@@ -60,7 +60,7 @@ export const columns = [
             : `/evaluation/gastronomy/monthly/add/${hotelId}/${workerId}/${firstPayTimeId}`;
         const titleAdd =
           firstPayTimeId === null
-            ? "El último mes de evaluación no esta registrado"
+            ? "El último mes de evaluación no está registrado"
             : `Realizar evaluación de Gastronomía a ${fullName} en ${firstPayTimeName}`;
 
         let colorBadge = "success";
@@ -150,7 +150,7 @@ export const columns = [
             : `/evaluation/gastronomy/monthly/add/${hotelId}/${workerId}/${secondPayTimeId}`;
         const titleAdd =
           secondPayTimeId === null
-            ? "El penúltimo mes de evaluación no esta registrado"
+            ? "El penúltimo mes de evaluación no está registrado"
             : `Realizar evaluación de Gastronomía a ${fullName} en ${secondPayTimeName}`;
 
         let colorBadge = "success";
@@ -240,7 +240,7 @@ export const columns = [
             : `/evaluation/gastronomy/monthly/add/${hotelId}/${workerId}/${thirdPayTimeId}`;
         const titleAdd =
           thirdPayTimeId === null
-            ? "El antepenúltimo mes de evaluación no esta registrado"
+            ? "El antepenúltimo mes de evaluación no está registrado"
             : `Realizar evaluación de Gastronomía a ${fullName} en ${thirdPayTimeName}`;
 
         let colorBadge = "success";

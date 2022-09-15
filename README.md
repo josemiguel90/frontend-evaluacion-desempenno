@@ -17,7 +17,7 @@ Instalar las dependencias utilizadas:
 $ npm install
 ```
 
-Una vez que se hallan instalado las dependencias puedes correr la aplicación:
+Una vez que se hayan instalado las dependencias puedes correr la aplicación:
 ```sh
 $ npm start
 ```

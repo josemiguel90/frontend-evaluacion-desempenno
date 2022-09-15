@@ -82,7 +82,7 @@ const Login = ({ location, history }) => {
                   </CCol>
                   <CCol md="6">
                     <h4 className="text-center ml-3 text-muted">
-                      Sistema de Evaluación del desempeño
+                      Sistema de Evaluación del Desempeño
                     </h4>
                   </CCol>
                 </CRow>

@@ -243,7 +243,7 @@ const TheSidebar = () => {
 
             {/* Pay Times */}
             <CSidebarNavDropdown
-              name="Períodos de Pago"
+              name="Periodos de Pago"
               icon={<GiPayMoney className="c-sidebar-nav-icon" />}
             >
               {/* Family List */}
@@ -256,7 +256,7 @@ const TheSidebar = () => {
               />
               {/* Import Family */}
               <CSidebarNavItem
-                name="Importar Período de Pago"
+                name="Importar Periodo de Pago"
                 to="/payTimes/import"
                 icon={<FaDownload className="c-sidebar-nav-icon" />}
               />

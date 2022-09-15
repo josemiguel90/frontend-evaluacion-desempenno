@@ -360,7 +360,7 @@ function FormEvaluation({
       <h4 className="text-center text-muted mb-3">
         Evaluación hasta el momento:{" "}
         {actualEvaluation === "" ? (
-          "Nada todavia"
+          "Nada todavía"
         ) : (
           <CBadge color={actualVariant}>{actualEvaluation}</CBadge>
         )}
@@ -1069,7 +1069,7 @@ function FormEvaluation({
                     <FormControlLabel
                       value={"9|4|B"}
                       control={<Radio />}
-                      label={"No se recibenquejas por parte de los clientes."}
+                      label={"No se reciben quejas por parte de los clientes."}
                     />
                   </div>
                 </div>
@@ -1609,7 +1609,7 @@ function FormEvaluation({
                       value={"16|3|R"}
                       control={<Radio />}
                       label={
-                        "En ocasiones no se muestra amabe y cortés con los clientes."
+                        "En ocasiones no se muestra amable y cortés con los clientes."
                       }
                     />
                   </div>
@@ -1671,7 +1671,7 @@ function FormEvaluation({
                     <FormControlLabel
                       value={"17|2|M"}
                       control={<Radio />}
-                      label={"Usa indevidamente la infomación que maneja"}
+                      label={"Usa indebidamente la información que maneja"}
                     />
                   </div>
                 </div>

@@ -75,7 +75,7 @@ const routes = [
   { path: '/dashboard', name: 'Panel Administrativo', component: HomeScreen },
 
   // Users Urls
-  { path: '/user/profile', name: 'Perfíl de Usuario', component: UserProfile },
+  { path: '/user/profile', name: 'Perfil de Usuario', component: UserProfile },
   { path: '/users/list', name: 'Listado de Usuarios', component: UserListScreen, exact: true},
   { path: '/users/list/add', name: 'Insertar Usuario', component: UserAddScreen },
   { path: "/users/list/edit/:id", name: 'Editar Usuario', component: UserEditScreen },
@@ -102,7 +102,7 @@ const routes = [
   { path: '/import/workers/:id/', name: 'Importar Trabajadores', component: ImportWorkerList},
 
   // Charges
-  { path: '/charges/', name: 'Cargos Discponibles', component: ChargeList},
+  { path: '/charges/', name: 'Cargos Disponibles', component: ChargeList},
   { path: '/categories/', name: 'Categorías Ocupacionales', component: CategoryList},
 
   // Sell Anual Plans

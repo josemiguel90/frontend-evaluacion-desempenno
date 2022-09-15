@@ -141,7 +141,7 @@ const HomeScreen = ({ history }) => {
             evaluationRange && (
               <div>
                 <CCardHeader className="text-center">
-                  Rango de Evaluaciones Mensuales de Melya
+                  Rango de Evaluaciones Mensuales de Melia
                 </CCardHeader>
                 <CCardBody>
                   <CChartPie

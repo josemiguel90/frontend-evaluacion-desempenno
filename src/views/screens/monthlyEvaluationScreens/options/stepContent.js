@@ -93,7 +93,7 @@ export const stepContent = [
     value1: "9|2|M",
     label2: "Se recibe una queja por parte de los clientes",
     value2: "9|3|R",
-    label3: "No se recibenquejas por parte de los clientes",
+    label3: "No se reciben quejas por parte de los clientes",
     value3: "9|4|B",
     label4: "No se reciben quejas, y sí reconocimientos o felicitaciones por parte de los clientes",
     value4: "9|5|MB",
@@ -168,7 +168,7 @@ export const stepContent = [
     // 16
     label1: "No es amable y cortés con el cliente",
     value1: "16|2|M",
-    label2: "En ocasiones no se muestra amabe y cortés con los clientes",
+    label2: "En ocasiones no se muestra amable y cortés con los clientes",
     value2: "16|3|R",
     label3: "Atiende a los clientes con amabilidad y cortesía",
     value3: "16|4|B",
@@ -177,7 +177,7 @@ export const stepContent = [
   },
   {
     // 17
-    label1: "Usa indevidamente la infomación que maneja",
+    label1: "Usa indebidamente la información que maneja",
     value1: "17|2|M",
     label2: "No procede",
     value2: "17|3|R",
